@@ -1,0 +1,24 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "express:start": "nodemon ./express/app.mjs",
+    "test:e2e:report": "playwright show-report",
+    "format:prettier": "prettier . --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.2",
+    "pdfkit": "^0.14.0",
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
