@@ -6,7 +6,10 @@ import { fileURLToPath } from 'url';
 
 const __filePath = fileURLToPath(import.meta.url);
 const file = path.join(path.dirname(__filePath), 'stream.out');
-const fileTransform = path.join(path.dirname(__filePath), 'transform.out');
+const fileTransform = path.join(
+  path.dirname(__filePath),
+  'stream-transform.out'
+);
 
 const outputStrean = fs.createWriteStream(file);
 
