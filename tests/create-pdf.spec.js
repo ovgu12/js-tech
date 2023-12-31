@@ -28,6 +28,7 @@ test('should create a pdf', async ({ page }) => {
     })
     .end();
 
+  // Create pdf with playwright
   await page.pdf({
     path: 'test-results/playwright.pdf',
     printBackground: true,

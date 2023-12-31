@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "express:start": "nodemon ./express/app.mjs",
-    "test:e2e:report": "playwright show-report",
+    "test:e2e:playwright": "playwright test",
+    "test:e2e:playwright:report": "playwright show-report",
     "format:prettier": "prettier . --write"
   },
   "author": "",

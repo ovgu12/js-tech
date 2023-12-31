@@ -1,3 +1,3 @@
-# scrape
+# js-tech
 
-A small project to create some experiments with playwright.
+Playground with node.js stuffs
