@@ -134,3 +134,6 @@ dist
 /playwright/.cache/
 
 .DS_STORE
+
+# React
+/react/build

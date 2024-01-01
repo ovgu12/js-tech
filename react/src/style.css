@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+input {
+  border: 1px solid transparent;
+  width: 24px;
+  padding: 2px 4px;
+  text-align: right;
+}
+
+.focus {
+  border: 1px solid red;
+}
